@@ -7,9 +7,9 @@ SRC = book_titles.cpp
 all: $(TARGET)
 
 $(TARGET): $(SRC)
-    $(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) $(LDFLAGS)
+	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRC) $(LDFLAGS)
 
 clean:
-    rm -f $(TARGET)
+	rm -f $(TARGET)
 
 
