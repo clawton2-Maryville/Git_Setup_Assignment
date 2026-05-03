@@ -36,6 +36,7 @@ std::endl;
     xmlFreeDoc(doc);
     return 1;
   }
+  //std::cout << "CI/CD Pipeline is working!!!" << std::endl;
   std::cout << "Book titles:" << std::endl;
   printTitles(root);
   xmlFreeDoc(doc);
